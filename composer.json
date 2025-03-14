@@ -1,0 +1,25 @@
+{
+  "name": "patelworld/windows-task-scheduler",
+  "description": "A PHP library for managing Windows Task Scheduler using PHP",
+  "type": "library",
+  "require": {
+    "php": ">=7.4"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "PatelWorld\\TaskScheduler\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PatelWorld\\TaskScheduler\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mukesh Patel",
+      "email": "mukesh_gam_m@yahoo.com"
+    }
+  ]
+}
